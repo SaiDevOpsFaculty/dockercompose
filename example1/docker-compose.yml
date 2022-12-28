@@ -1,0 +1,11 @@
+version: '3'
+services:
+ one:
+   build:
+     context: ./one
+   image: imgone
+ two:
+   build:
+     context: ./two
+   image: imgtwo
+
